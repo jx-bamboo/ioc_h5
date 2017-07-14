@@ -1,0 +1,181 @@
+/**
+ * 
+ * 
+ * author ljx
+ *
+ */
+
+/*test*/
+.border{border:1px solid #ccc;}
+.right{float: right;}
+.left{float: left;}
+
+.blue{color: blue;}
+.black{color: black;}
+.red{color: red;}
+.yellow{color: yellow;}
+.white{color: white;}
+.orange{color:orange;}
+
+.bblue{background-color: blue;}
+.bblack{background-color: black;}
+.bred{background-color: red;}
+.byellow{background-color: yellow;}
+.bwhite{background-color: white;}
+.borange{background-color: orange;}
+
+.html, body, .fdiv{padding: 0;margin: 0;width: 100%;height: 100%;text-align: center;}
+ul li{list-style-type: none;}
+
+
+
+/* header */
+.header{z-index: 999;text-align: center;}
+.head{
+	z-index: 999;
+	width:100%;
+	height: 60px;
+	text-align: center;
+	position: fixed;
+	border-bottom: 1px solid #ccc;
+	/*opacity:0.7;*/
+}
+.h_up{
+	margin:0 auto;
+	width:100%;
+	max-width: 120rem;
+	padding: 10px;
+	text-align: center;
+	height: 50px;
+}
+
+.headM h6{padding: 0;margin: 0;}
+
+.headd{text-align: center;position: relative;top:-4px;}
+.hup, .headd2 ul li{float: left;}
+.headd2 ul li{padding: 5px 20px 0 20px;}
+.headd2 ul li a:hover{text-decoration: none;cursor:pointer;}
+.headd2 ul li a{font-size: 20px;color:#40B8EF;}
+.headMenu:hover{border-bottom: 5px solid #CCECFB;}
+
+.searchIcon{
+	border:none;
+	background: url('/image/searchIco.png') no-repeat;
+	position: relative;
+	right: 24px;
+}
+.searchD a:hover{text-decoration: none;}
+
+/* bootstrap */
+.outD{padding:0;width:100%;text-align: center;position: fixed;z-index: 9999;max-height: 52px;}
+#outNav{border:none;padding:0;margin: 0 auto;text-align: center;max-width: 120rem;max-height: 52px;}
+#outNd{margin: 0 auto;}
+#menuUl li a{color:#40B8EF;background-color: white;font-size: 18px;}
+#menuUl .cmc :hover{color:red/* #02B5B1 *//*#CCECFB*/;}
+.menuA{margin: -5px;}
+
+.hup2, .headd22 ul li{float: left;}
+.headd22 ul li{padding: 10px 5px 0 20px;}
+.headd22 ul li a:hover{text-decoration: none;cursor:pointer;}
+.headd22 ul li a{font-size: 20px;color:#40B8EF;}
+.headM2 h6{padding: 0;margin: 0;}
+.login{position: relative;top:-52px;max-height: 52px;}
+#logodiv{min-width: 170px;}
+#logB,#logA{border:none;padding:5px 5px;}
+#logB{padding-right: 10px;}
+.logB a{color:#40B8EF;font-size: 18px;border:none;}
+.logB a:hover{color:red;text-decoration: none;}
+.searchdiv{}
+
+/*  */
+/* content */
+
+/*taskbar*/
+.taskbar{
+	position: relative;
+    line-height: 50px;
+    height: 50px;
+    background-size: 100%;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+	max-height:60px;
+	background: url('/image/index_taskbar.png') no-repeat;
+	/*background-image: url(/image/index_taskbar.png);*/
+}
+.barMenu{color:white;}
+/**/
+
+/*news*/
+.newD{background-color: #fafafa;}
+.nlp, .nlp div{max-width: 748px;}
+.lnews{height: 260px;}/*定长*/
+
+
+.rnews{
+	/*background-color:#ff9900;*/
+	border:1px solid #f6f6f6;
+	box-shadow: 1px 1px 2.5px #ccc;
+}
+.rnews, .rnews a{color:#999;}
+.rnews a:hover{color:black;text-decoration: none;color:#ccc;}
+
+.nsdiv{}
+.ns_d{
+	font-size: initial;
+	line-height: 2em;
+}
+.ns_a{margin:0 100px 0 0;text-overflow: ellipsis;}
+.newIco{
+	width: 1.18em;
+	height: 1em;
+	border-radius: 50%;
+	font-weight: 400;
+	font-size: 0.4em;
+	font-style: normal;
+	box-sizing: inherit;
+	/*margin:4px 0;*/
+	margin: 0.8rem .25rem 0 0;
+
+}
+#ggl{
+	background-color: 
+  }
+
+/**/
+
+
+
+
+/*.fdivu{
+	background-color: #F2F2F2;
+	text-align: center;
+}*/
+
+/*.fdivud{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width: 20%;
+}*/
+.fdivud ul li{list-style: none;}
+
+.fdlogo img{
+	-moz-border-radius:12em;
+	-webkit-border-radius:12em;
+	border-radius:12em;
+	behavior:url(css/ie-css3.htc);
+}
+.fdiv{width:100%;height:100%;padding:0;margin: 0;text-align: center;background-color: #f8f9fb;}
+.footup{margin:0 auto;max-width: 120rem;}
+
+.footu4{text-align: left;}
+.footu4 p a{background-color: #FAFAFA;color: #2c2e2e;border-radius:1em;padding: 5px;}
+.footu4 p a:hover{background-color: #696b53;color: #fff;text-decoration: none;}
+.footu4 h3{background-color: }
+.footlast a{cursor:default;}
+
+
+
+
+.fbeian{padding: 20px 0 20px 0;text-align: center;}

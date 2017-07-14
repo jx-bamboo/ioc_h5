@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	
+	<title>Brockex</title>
+	<link rel="stylesheet" href="/css/style.css" type="text/css" >
+	<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" >
+	<script type="text/javascript" src="/js/jquery-2.1.4.js" ></script>
+	<script type="text/javascript" src="/js/bootstrap.js" ></script>
+	<script type="text/javascript" src="" ></script>
+	<!-- 解决placeholder -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+	<!-- 解决border-radius -->
+	<script src="/js/DD_roundies.js"></script>
+	<script type="text/javascript">
+        DD_roundies.addRule('.test', '10px 10px', true);
+	</script>
+
+
+	<!-- 解决bootstrap兼容 -->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+	  <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+    $(function () {
+        // Invoke the plugin
+        $('input, textarea').placeholder();
+    });
+</script>
+</head>
+<body>
+	<div class="app">
+		<!--head-->
+		<header class="header">
+			<!--#include file="content/layout/header.html"-->
+		</header>
+		
+		<!--content-->
+		<content class="content">
+			<!--#include file="content/scrollImg.html"-->
+			<!--#include file="content/taskbar.html"-->
+			<!--#include file="content/news.html"-->
+		</content>
+		
+		<!--foot-->
+		<footer class="footer">
+			<!--#include file="content/layout/footer.html"-->
+		</footer>
+	</div>
+</body>
+
+</html>
